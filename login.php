@@ -30,3 +30,4 @@ if (is_post_request()) {
 } else if (is_get_request()) {
     [$errors, $inputs] = session_flash('errors', 'inputs');
 }
+/////////
